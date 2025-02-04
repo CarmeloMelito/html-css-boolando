@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+main {
+    margin-top: 150px;
+}
+
 header {
     position: fixed;
     background-color: #ff6900;
@@ -22,6 +26,17 @@ header {
 
 }
 
+.hearth {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.discount-label {
+    position: absolute;
+    bottom: 100px;
+}
+
 .logo {
     height: 35px;
     width: 140px;
@@ -31,11 +46,37 @@ header {
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card {
+    position: relative;
 }
 
 .image-card {
     height: 650px;
     width: 450px;
+}
 
+.text-container {}
+
+.brand-text {}
+
+.description-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.prices-container {
+    display: flex;
+    gap: 8px;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+.discount-price {
+    text-decoration: line-through;
 }
