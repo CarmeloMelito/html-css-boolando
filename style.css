@@ -80,16 +80,16 @@ header {
 
 .card {
     position: relative;
+
 }
+
+.card:hover {}
+
 
 .image-card {
     height: 650px;
     width: 450px;
 }
-
-
-
-
 
 .description-text {
     font-size: 18px;
@@ -108,4 +108,29 @@ header {
 
 .discount-price {
     text-decoration: line-through;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+
+.information {
+    padding: 35px;
+    margin-left: 220px;
+    font-weight: bold;
+}
+
+.information-privacy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.find {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
 }
