@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+
+    background-color: #ff6900;
+    color: white;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.logo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 35px;
+    width: 140px;
+}
