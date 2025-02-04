@@ -28,13 +28,42 @@ header {
 
 .hearth {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 26px;
+    right: 16px;
+    background-color: white;
+    padding: 5px;
+
 }
 
 .discount-label {
     position: absolute;
     bottom: 100px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.sostenibility {
+    position: absolute;
+    bottom: 100px;
+    left: 60px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.sostenibility-afro {
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
 }
 
 .logo {
@@ -58,9 +87,9 @@ header {
     width: 450px;
 }
 
-.text-container {}
 
-.brand-text {}
+
+
 
 .description-text {
     font-size: 18px;
