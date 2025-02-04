@@ -6,20 +6,36 @@
 }
 
 header {
-
+    position: fixed;
     background-color: #ff6900;
     color: white;
     padding: 30px;
     font-weight: bold;
+    width: 100%;
+    top: 0;
 }
 
 .logo-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+
 }
 
 .logo {
     height: 35px;
     width: 140px;
+}
+
+.images-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.image-card {
+    height: 650px;
+    width: 450px;
+
 }
